@@ -1,0 +1,9 @@
+name: "@mythrandire/ingest-temporal-labels"
+type: plugin
+author: "Dwiref Oza"
+version: "0.1.2"
+description: "A plugin to ingest a video dataset with custom TemporalDetections."
+fiftyone:
+  version: ">=1.2.0"
+operators:
+  - ingest-temporal-labels
